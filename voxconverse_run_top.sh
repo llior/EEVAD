@@ -1,5 +1,5 @@
 #copyright wangjie xmuspeech
-#2021.9.16
+#2021/9/16
 . ./cmd.sh
 . ./path.sh
 #prepare data for EEVAD

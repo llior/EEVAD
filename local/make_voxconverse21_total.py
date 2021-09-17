@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # copyright wangjie xmuspeech
+# 2021/9/17
 # This script is called by local/make_voxconverse21_total.sh, and it creates the
 # necessary files for VoxConverse 2021 development directory.
 
@@ -40,10 +41,6 @@ def main():
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
     prepare_voxconverse21(src_dir, data_dir)
-    # elif dataset == "dev":
-    #     prepare_voxconverse21_dev(src_dir, data_dir)
-    # elif dataset == "eval":
-    #     prepare_voxconverse21_eval(src_dir, data_dir)
     return 0
 
 if __name__=="__main__":

@@ -1,6 +1,6 @@
 #!/bin/bash
 #copyright wangjie xmuspeech
-#2021.9.16
+#2021/9/16
 
 . ./path.sh
 . ./cmd.sh
